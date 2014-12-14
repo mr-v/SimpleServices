@@ -12,4 +12,7 @@ import Services
 
 class ServicesTests: XCTestCase {
 
+    func test_test200() {
+        stubRequest("", "google.com")
+    }
 }
