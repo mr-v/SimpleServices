@@ -8,25 +8,6 @@
 
 import Foundation
 
-public enum Result<T> {
-    case OK(T)
-    case Error
-
-    public func isOK() -> Bool {
-        switch self {
-        case .OK(_):    return true
-        default:        return false
-        }
-    }
-
-    public func isError() -> Bool {
-        switch self {
-        case .Error:    return true
-        default:        return false
-        }
-    }
-}
-
 protocol ServiceType {
     typealias T
     func fetch(parameters: [String: Any], completionHandler: Result<T> -> ()) // cancellable

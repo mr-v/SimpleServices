@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		18C5DEF5A37FCCF82BF536EC /* libPods-ServicesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D3832B4907B8E9CCFDE40B /* libPods-ServicesTests.a */; };
+		EA2BEC401A40660A00016FC0 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2BEC3F1A40660A00016FC0 /* Result.swift */; };
+		EA2BEC421A40665600016FC0 /* ResultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2BEC411A40665600016FC0 /* ResultsTests.swift */; };
 		EA9D45491A3E096300E10A40 /* Services.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9D45481A3E096300E10A40 /* Services.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA9D454F1A3E096300E10A40 /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9D45431A3E096300E10A40 /* Services.framework */; };
-		EA9D45561A3E096300E10A40 /* ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D45551A3E096300E10A40 /* ServicesTests.swift */; };
 		EA9D45621A3E097900E10A40 /* DeserializerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D455F1A3E097900E10A40 /* DeserializerType.swift */; };
 		EA9D45631A3E097900E10A40 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D45601A3E097900E10A40 /* ServiceType.swift */; };
 		EA9D45641A3E097900E10A40 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D45611A3E097900E10A40 /* WebService.swift */; };
 		EA9D456A1A3E12D800E10A40 /* NocillaTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D45691A3E12D800E10A40 /* NocillaTestCase.swift */; };
-		EA9D456D1A3E137100E10A40 /* XCTestCase+TimeoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D456C1A3E137100E10A40 /* XCTestCase+TimeoutExtension.swift */; };
 		EA9D456F1A3E143E00E10A40 /* JSONWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D456E1A3E143E00E10A40 /* JSONWebServiceTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,18 +33,18 @@
 		52D3832B4907B8E9CCFDE40B /* libPods-ServicesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ServicesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C64FD22497892082D9F037D /* Pods-ServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServicesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServicesTests/Pods-ServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		95586EA1D60B68E8E972EF6E /* Pods-ServicesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServicesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServicesTests/Pods-ServicesTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA2BEC3F1A40660A00016FC0 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EA2BEC411A40665600016FC0 /* ResultsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTests.swift; sourceTree = "<group>"; };
 		EA9D45431A3E096300E10A40 /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9D45471A3E096300E10A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA9D45481A3E096300E10A40 /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
 		EA9D454E1A3E096300E10A40 /* ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9D45541A3E096300E10A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA9D45551A3E096300E10A40 /* ServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTests.swift; sourceTree = "<group>"; };
 		EA9D455F1A3E097900E10A40 /* DeserializerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeserializerType.swift; sourceTree = "<group>"; };
 		EA9D45601A3E097900E10A40 /* ServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
 		EA9D45611A3E097900E10A40 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		EA9D45661A3E0E4300E10A40 /* ServicesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServicesTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		EA9D45691A3E12D800E10A40 /* NocillaTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NocillaTestCase.swift; path = Utilities/NocillaTestCase.swift; sourceTree = "<group>"; };
-		EA9D456C1A3E137100E10A40 /* XCTestCase+TimeoutExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+TimeoutExtension.swift"; sourceTree = "<group>"; };
 		EA9D456E1A3E143E00E10A40 /* JSONWebServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONWebServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +113,7 @@
 				EA9D45601A3E097900E10A40 /* ServiceType.swift */,
 				EA9D45611A3E097900E10A40 /* WebService.swift */,
 				EA9D45461A3E096300E10A40 /* Supporting Files */,
+				EA2BEC3F1A40660A00016FC0 /* Result.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -129,10 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				EA9D456B1A3E132B00E10A40 /* Utilities */,
-				EA9D45551A3E096300E10A40 /* ServicesTests.swift */,
 				EA9D45531A3E096300E10A40 /* Supporting Files */,
 				EA9D45661A3E0E4300E10A40 /* ServicesTests-Bridging-Header.h */,
 				EA9D456E1A3E143E00E10A40 /* JSONWebServiceTests.swift */,
+				EA2BEC411A40665600016FC0 /* ResultsTests.swift */,
 			);
 			path = ServicesTests;
 			sourceTree = "<group>";
@@ -149,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				EA9D45691A3E12D800E10A40 /* NocillaTestCase.swift */,
-				EA9D456C1A3E137100E10A40 /* XCTestCase+TimeoutExtension.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -298,6 +298,7 @@
 			files = (
 				EA9D45641A3E097900E10A40 /* WebService.swift in Sources */,
 				EA9D45621A3E097900E10A40 /* DeserializerType.swift in Sources */,
+				EA2BEC401A40660A00016FC0 /* Result.swift in Sources */,
 				EA9D45631A3E097900E10A40 /* ServiceType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,9 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA9D456F1A3E143E00E10A40 /* JSONWebServiceTests.swift in Sources */,
-				EA9D456D1A3E137100E10A40 /* XCTestCase+TimeoutExtension.swift in Sources */,
+				EA2BEC421A40665600016FC0 /* ResultsTests.swift in Sources */,
 				EA9D456A1A3E12D800E10A40 /* NocillaTestCase.swift in Sources */,
-				EA9D45561A3E096300E10A40 /* ServicesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
