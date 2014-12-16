@@ -11,7 +11,7 @@ import XCTest
 
 class NocillaTestCase: XCTestCase {
 
-    var expectaction: XCTestExpectation!
+    var expectation: XCTestExpectation!
 
     override class func setUp() {
         super.setUp()
@@ -25,12 +25,12 @@ class NocillaTestCase: XCTestCase {
 
     override func setUp() {
         super.setUp()
-//        expectaction = expectationWithDescription("")
+        expectation = expectationWithDescription("")
     }
 
     override func tearDown() {
         super.tearDown()
-        expectaction = nil
+        expectation = nil
         LSNocilla.sharedInstance().clearStubs()
     }
 }
